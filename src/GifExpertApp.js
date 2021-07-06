@@ -3,7 +3,7 @@ import AddCategory from "./components/AddCategory";
 import GifGrid from "./components/GifGrid";
 
 const GifExpertApp = () => {
-  const [categories, setCategories] = useState(["hola"]);
+  const [categories, setCategories] = useState(["rick"]);
 
   // const handleAdd = () => {
   //   // setCategories(["HunterXHunter",...categories ]);
@@ -12,7 +12,7 @@ const GifExpertApp = () => {
 
   return (
     <div>
-      <h1>GifExpertApp</h1>
+      <h1>Buscador de Gifs</h1>
       <AddCategory setCategories={setCategories} />
       <hr />
 

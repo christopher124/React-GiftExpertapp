@@ -4,14 +4,14 @@
 
 body {
   padding: 60px;
+  color: #354aa3;
 }
 
 input {
-  color: grey;
+  color: rgb(0, 0, 0);
   font-size: 1.2rem;
   width: 100%;
 }
-
 .card-grid {
   display: flex;
   flex-direction: row;
@@ -19,19 +19,23 @@ input {
 }
 
 .card {
-  align-content: center;
-  border: 1px solid grey;
-  border-radius: 6px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  overflow: hidden;
+  margin: 0 auto;
+  background: var(--card-color);
+  color: rgb(255, 255, 255);
+  width: 400px;
+  padding: 20px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
+  border-radius: 20px;
 }
 
 .card p {
   padding: 5px;
+  color: rgba(0, 0, 0, 0.377);
   text-align: center;
 }
 
 .card img {
+  display: block;
+  margin: auto;
   max-height: 170px;
 }
